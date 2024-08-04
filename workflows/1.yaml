@@ -2,7 +2,7 @@ name: Artifact Example
 
 on: 
   push:
-    branches: [ main ]
+    - 'actions_trial/workflows/1.yaml' 
 
 jobs:
   generate-artifact:
