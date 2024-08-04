@@ -2,7 +2,8 @@ name: Artifact Example
 
 on: 
   push:
-    - 'actions_trial/workflows/1.yaml' 
+    paths:
+      - 'actions_trial/workflows/1.yaml' 
 
 jobs:
   generate-artifact:
